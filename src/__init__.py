@@ -1,0 +1,1 @@
+##converts any module into package which can be easily imported

@@ -1,3 +1,6 @@
+''' this file is used to import the pre-requisite packages which are listed in requirements.txt
+    as well as setup basic structure
+'''
 from setuptools import find_packages,setup
 from typing import List
 
@@ -11,7 +14,7 @@ def get_requirements(file_path:str)->List[str]:
         requirements=file_obj.readlines()
         requirements=[req.replace('\n','') for req in requirements]
 
-        if hyphen_e_dot in requirements:
+        if hyphen_e_dot in requirements:  ## to eliminate .e present in requirements which marks the end
             requirements.remove(hyphen_e_dot)
 
         return requirements
