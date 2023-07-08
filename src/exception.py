@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 def error_message_detail(error, error_detail:sys): #fn for our own custom message for any error
 # error_detail we retreive from sys module which has all the error info  
