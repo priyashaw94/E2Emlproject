@@ -7,8 +7,10 @@ def error_message_detail(error, error_detail:sys): #fn for our own custom messag
     #exc_info gives 3 execution info, exc_tb nw stores the info where exception has occurred
     file_name=exc_tb.tb_frame.f_code.co_filename
 
-    error_message="Error occurred in python script name [{0}] line number [{1}] error message [{2}]". format(
+    error_message="Error occurred in python script name [{0}] line number [{1}] error message [{2}]".format(
         file_name,exc_tb.tb_lineno,str(error))
+    
+    return error_message
     
 
 class CustomException(Exception):   ##this class inherits parent class Exception
