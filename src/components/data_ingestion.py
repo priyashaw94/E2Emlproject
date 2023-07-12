@@ -35,6 +35,7 @@ class DataIndigestion:
             logging.info("Data Ingestion Completed!")
 
             return(
+                # returning train and test dataset creted from raw dataset for further processing
                 self.ingestion_config.train_data_path,
                 self.ingestion_config.test_data_path,
 
