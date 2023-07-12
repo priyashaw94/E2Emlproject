@@ -1,5 +1,5 @@
 import sys
-from src.logger import logging
+from src.logger import logging ## to link with log files
 
 def error_message_detail(error, error_detail:sys): #fn for our own custom message for any error
 # error_detail we retreive from sys module which has all the error info  
@@ -23,9 +23,11 @@ class CustomException(Exception):   ##this class inherits parent class Exception
 
 
 
+'''
 if __name__=="__main__":
     try:
         a=1/0
     except Exception as e:
         logging.info("Divide by 0 error...")
         raise CustomException(e,sys)
+'''

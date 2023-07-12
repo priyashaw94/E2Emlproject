@@ -14,6 +14,8 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
+'''
 if __name__=="__main__":
     with open(LOG_FILE_PATH) as f:
         logging.info("Logging has started...")
+'''

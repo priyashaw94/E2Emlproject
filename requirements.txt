@@ -1,4 +1,6 @@
 pandas
 numpy
 seaborn
--e .    ##marks the end of required packages
+scikit-learn
+#dataclasses
+#-e .    ##marks the end of required packages
