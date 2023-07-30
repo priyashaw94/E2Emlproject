@@ -4,6 +4,6 @@ seaborn
 scikit-learn
 dill
 # catboost
-# xgboost
-#dataclasses
+xgboost
+dataclasses
 #-e .    ##marks the end of required packages
