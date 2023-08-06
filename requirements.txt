@@ -6,4 +6,6 @@ dill
 # catboost
 xgboost
 dataclasses
+Flask
+
 #-e .    ##marks the end of required packages

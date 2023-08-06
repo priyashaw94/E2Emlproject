@@ -1,5 +1,6 @@
 import os
 import sys
+# sys.path.append('/Users/priyashaw/Documents/MLprojects/e2emodel/')##added due to ModuleNotFound error for src module
 from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
